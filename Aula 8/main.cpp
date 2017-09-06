@@ -17,5 +17,10 @@ int main(int argc, char** argv) {
 	cout<<endl;
 	cout<<A<<" "<<&A<<" "<<ptrA<<" "<< *ptrA<<" "<<&ptrA<<endl;
 	
+	ptrA = ptrA+1;
+	
+	cout<<endl;
+	cout<<A<<" "<<&A<<" "<<ptrA<<" "<< *ptrA<<" "<<&ptrA<<endl;
+	
 	return 0;
 }
