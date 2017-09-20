@@ -51,12 +51,12 @@ void pto_libera (ponto *p) {							//<- Método serve para eliminar o espaco ocup
 	delete p;
 }
 
-void pto_acessa (ponto *p, float *x, float *y) {		//<- Método 
+void pto_acessa (ponto *p, float *x, float *y) {		//<- Método acessa os valores dos endereços de x e y.
 	*x = p->x;
 	*y = p->y;
 }
 
-void pto_atribui (ponto *p, float x, float y) {			//<- Método 
+void pto_atribui (ponto *p, float x, float y) {			//<- Método mudaria os valores das coordenadas, passando dessa vez como parâmetro os novos pontos.
 	p->x = x;
 	p->y = y;
 }
